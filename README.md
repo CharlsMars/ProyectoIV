@@ -13,3 +13,17 @@ Los alimentos frescos se encargaría la aplicación de calcular cuánto tiempo d
 Debido a que almacena todos los ingredientes que guardamos en casa, la aplicación recomienda recetas con los ingredientes que convenga consumir antes.
 
 También filtra por tipo de alimento y por productos que deben consumirse cuanto antes.
+
+## Lista de comprobación
+
+¿Se trata de un problema real del que se tenga conocimiento personal?
+Sí, ya que muchas veces por falta de conocimiento de qué disponía en casa, han acabado muchos alimentos sin poder usarse.
+
+¿Se trata de un problema que para solucionar requiera el despliegue de una aplicación en la nube?
+Sí, ya que se podría hacer un seguimiento de los alimentos de forma natural, pero gracias al avance tecnológico, se podría tener en nuestro bolsillo y sin necesidad de usar papel.
+
+¿La solución requiere una cierta cantidad de lógica de negocio, en vez de solucionarse sólo almacenando y buscando?
+Sí, ya que esta no solo ofrece la opción de consultar los productos, sino de también avisar al usuario de qué alimentos conviene consumir cuanto antes.
+
+¿Se ha incluído la configuración del repositorio y se ha enlazado desde el 'README'?
+Sí, he configurado las claves y he seleccionado el tipo de licencia.
