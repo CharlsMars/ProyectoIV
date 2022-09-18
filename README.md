@@ -26,4 +26,4 @@ Sí, ya que se podría hacer un seguimiento de los alimentos de forma natural, p
 Sí, ya que esta no solo ofrece la opción de consultar los productos, sino de también avisar al usuario de qué alimentos conviene consumir cuanto antes.
 
 ¿Se ha incluído la configuración del repositorio y se ha enlazado desde el 'README'?
-Sí, he configurado las claves y he seleccionado el tipo de licencia.
+Sí, he configurado las claves SSH y he seleccionado el tipo de licencia.
