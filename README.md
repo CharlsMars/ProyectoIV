@@ -1,4 +1,4 @@
-# BookMe
+# HouseWork
 
 El problema que pretendo hacer frente con mi aplicación viene dado por la falta de coordinación y comunicación con las tareas del hogar al convivir con más gente e incluso con personas que no hablen tu mismo idioma. Este problema me incluye en el grupo afectado ya que actualmente estoy haciendo Erasmus y me he topado con este imprevisto. Pero se podría aplicar a más ámbitos como puede ser vivir en piso compartido o para una familia en una casa.
 
