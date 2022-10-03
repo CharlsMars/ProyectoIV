@@ -10,7 +10,7 @@ Por ello, propongo el uso de una herramienta que dado un destino a elección del
 
 ## Lógica de negocio
 
-La herramienta usará datos abiertos de predicciones climáticas y de turismo, los cuales de este último se puede extraer la ocupación, los precios y la rentabilidad de diversos hoteles y apartamentos. Con toda esta información la aplicación calcularía los mejores resultados.
+La herramienta usará datos abiertos de predicciones climáticas y de turismo. De este último se puede extraer la ocupación, los precios y la rentabilidad de diversos hoteles y apartamentos. Con toda esta información la aplicación calcularía los mejores resultados.
 
 Esta aplicación permitiría al usuario hacer una búsqueda rápida y eficiente de las distintas posibilidades ofrecidas a la hora de querer viajar a algún destino.
 
