@@ -1,27 +1,29 @@
-# HouseWork
+# FindMyTrip
 
-El problema que pretendo hacer frente con mi aplicación viene dado por la falta de coordinación y comunicación con las tareas del hogar al convivir con más gente e incluso con personas que no hablen tu mismo idioma. Este problema me incluye en el grupo afectado ya que actualmente estoy haciendo Erasmus y me he topado con este imprevisto. Pero se podría aplicar a más ámbitos como puede ser vivir en piso compartido o para una familia en una casa.
+## Problema
 
-La organización de las tareas del hogar la podemos definir a gran escala como: compra, limpieza, tirar la basura, colada, desperfectos… Mi aplicación estaría repartida en las distintas estancias de la vivienda, en las cuales podría haber desde ninguna a más de una tarea pendiente por realizar. Sobre las tareas, la aplicación se encargaría de procesar quien es el usuario perteneciente al hogar que le corresponde realizar cada acción. El algoritmo predeciría la asignación de la tarea de la forma más equitativa extrayendo el historial de cada actividad realizada por cada usuario.
+A la hora de viajar, me ha pasado en bastantes ocasiones que el clima no acompañaba, el destino estaba abarrotado y que los precios eran muy caros.
 
-Para la visualización de todo esto, he pensado en dos posibilidades:
-1. Opción visual por estancias: Genera una lista de todas las estancias existentes de la casa, las cuales contienen las tareas pendientes de las mismas.
-2. Lista de todas las tareas: Lista que filtra cada una de las tareas pendientes según su tipo (compra, limpieza, colada…).
+## Solución
 
-Con esta aplicación conectada en la nube, se hace un uso compartido muy fácil en el que cada usuario sabe en todo momento qué faena tiene que realizar sin tener el problema de siempre repetir la misma.
+Por ello, propongo el uso de una herramienta que dado un destino a elección del usuario, genere distintas posibilidades de fechas clave, filtrando por predicción climática, precio aproximado e índice de saturación de gente.
 
-Al poderse modificar el tipo de estancias de la casa, esta aplicación es de uso universal.
+## Lógica de negocio
+
+La herramienta usará datos abiertos de predicciones climáticas y de turismo, los cuales de este último se puede extraer la ocupación, los precios y la rentabilidad de diversos hoteles y apartamentos. Con toda esta información la aplicación calcularía los mejores resultados.
+
+Esta aplicación permitiría al usuario hacer una búsqueda rápida y eficiente de las distintas posibilidades ofrecidas a la hora de querer viajar a algún destino.
 
 ## Lista de comprobación
 
 ¿Se trata de un problema real del que se tenga conocimiento personal?
-Sí, porque como he comentado antes, estoy viviéndolo ahora mismo.
+Sí, porque siempre que he querido viajar me he encontrado con estos dilemas, así que me ahorraría tiempo.
 
 ¿Se trata de un problema que para solucionar requiera el despliegue de una aplicación en la nube?
-Sí, porque cada persona tiene su propia aplicación con sus actividades pendientes propias.
+Sí, porque cada persona tiene su propio destino al que querer ir. Siendo personal el uso de la herramienta.
 
 ¿La solución requiere una cierta cantidad de lógica de negocio, en vez de solucionarse sólo almacenando y buscando?
-Sí, ya que esta lógica de negocio se basa en facilitar y hacer más accesible el hecho de repartir las tareas de una casa.
+Sí, ya que esta lógica de negocio se basa en facilitar y hacer más rápida la búsqueda de destino.
 
 ¿Se ha incluído la configuración del repositorio y se ha enlazado desde el 'README'?
 Sí, he configurado y usado las claves SSH y he seleccionado el tipo de licencia.
