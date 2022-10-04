@@ -1,29 +1,27 @@
-# FindMyTrip
+# ReaderTreasure
 
 ## Problema
 
-A la hora de viajar, me ha pasado en bastantes ocasiones que el clima no acompañaba, el destino estaba abarrotado y que los precios eran muy caros.
+Descubrir libros de nuestro gusto puede ser una tarea complicada. Solemos guiarnos por recomendaciones de amigos y conocidos pero en la mayoría de casos, no consiguen engancharnos y terminamos abandonándolos sin haberlos terminado.
 
 ## Solución
 
-Por ello, propongo el uso de una herramienta que dado un destino a elección del usuario, genere distintas posibilidades de fechas clave, filtrando por predicción climática, precio aproximado e índice de saturación de gente.
+ Por ello voy a desarrollar una herramienta que prediga recomendaciones de libros que nos interesen. El algoritmo procesará la información de autores, géneros, tipos, etc.
 
 ## Lógica de negocio
 
-La herramienta usará datos abiertos de predicciones climáticas y de turismo. De este último se puede extraer la ocupación, los precios y la rentabilidad de diversos hoteles y apartamentos. Con toda esta información la aplicación calcularía los mejores resultados.
-
-Esta aplicación permitiría al usuario hacer una búsqueda rápida y eficiente de las distintas posibilidades ofrecidas a la hora de querer viajar a algún destino.
+Esta herramienta requeriría un breve cuestionario para hacer un perfil de cada usuario. Con esta información más la que facilite el usuario sobre libros ya leídos, ésta predeciría nuevos libros afines a los gustos del usuario.
 
 ## Lista de comprobación
 
 ¿Se trata de un problema real del que se tenga conocimiento personal?
-Sí, porque siempre que he querido viajar me he encontrado con estos dilemas, así que me ahorraría tiempo.
+Sí, en muchas ocasiones he tenido que abandonar libros a medio leer porque no terminaban de gustarme.
 
 ¿Se trata de un problema que para solucionar requiera el despliegue de una aplicación en la nube?
-Sí, porque cada persona tiene su propio destino al que querer ir. Siendo personal el uso de la herramienta.
+Sí, porque tendría que existir un servidor que almacene la información de cada usuario y sus recomendaciones personalizadas.
 
 ¿La solución requiere una cierta cantidad de lógica de negocio, en vez de solucionarse sólo almacenando y buscando?
-Sí, ya que esta lógica de negocio se basa en facilitar y hacer más rápida la búsqueda de destino.
+Sí, ya que según los gustos de cada usuario, la herramienta ofrece distintos resultados, procesando cada perfil de manera independiente.
 
 ¿Se ha incluído la configuración del repositorio y se ha enlazado desde el 'README'?
 Sí, he configurado y usado las claves SSH y he seleccionado el tipo de licencia.
