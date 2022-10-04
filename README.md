@@ -2,11 +2,11 @@
 
 ## Problema
 
-Descubrir libros de nuestro gusto puede ser una tarea complicada. Solemos guiarnos por recomendaciones de amigos y conocidos pero en la mayoría de casos, no consiguen engancharnos y terminamos abandonándolos sin haberlos terminado.
+Descubrir libros de nuestro gusto puede ser una tarea complicada. Solemos guiarnos por recomendaciones de amigos y conocidos pero en la mayoría de casos, no consiguen engancharnos y terminamos abandonándolos sin finalizarlos.
 
 ## Solución
 
- Por ello voy a desarrollar una herramienta que prediga recomendaciones de libros que nos interesen. El algoritmo procesará la información de autores, géneros, tipos, etc.
+Por ello voy a desarrollar una herramienta que prediga recomendaciones de libros que nos interesen. El algoritmo procesará la información de autores, géneros, tipos, etc.
 
 ## Lógica de negocio
 
