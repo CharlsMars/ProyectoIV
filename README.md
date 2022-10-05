@@ -1,27 +1,31 @@
-# ReaderTreasure
+# StudyBook
 
 ## Problema
-
-Descubrir libros de nuestro gusto puede ser una tarea complicada. Solemos guiarnos por recomendaciones de amigos y conocidos pero en la mayoría de casos, no consiguen engancharnos y terminamos abandonándolos sin finalizarlos.
+Cuando es época de exámenes, las salas de estudio completan su aforo y encontrar sitio donde estudiar se convierte una tarea difícil. 
 
 ## Solución
-
-Por ello voy a desarrollar una herramienta que prediga recomendaciones de libros que nos interesen. El algoritmo procesará la información de autores, géneros, tipos, etc.
+Por esto, propongo una herramienta que ayudándose de la base de datos de la UGR, el usuario pueda saber cuántos puestos hay libres en las distintas aulas de estudio/bibliotecas, pudiendo así saber de antemano dónde poder ir. La aplicación permitiría la reserva de puestos, procesando las peticiones de los usuarios.
 
 ## Lógica de negocio
-
-Esta herramienta requeriría un breve cuestionario para hacer un perfil de cada usuario. Con esta información más la que facilite el usuario sobre libros ya leídos, ésta predeciría nuevos libros afines a los gustos del usuario.
+La herramienta requerirá la localización de usuario, ya que ésta calculará la distancia a las bibliotecas/salas de estudio más cercanas y que tengan puestos libres. También otra idea que tendría que investigar más adelante es la posibilidad de que la aplicación sepa qué carrera estamos estudiando y filtre por libros disponibles en la biblioteca compatibles con la carrera del usuario.
 
 ## Lista de comprobación
+* [ ] ¿Se trata de un problema real del que se tenga conocimiento personal?
 
-¿Se trata de un problema real del que se tenga conocimiento personal?
-Sí, en muchas ocasiones he tenido que abandonar libros a medio leer porque no terminaban de gustarme.
+Sí, en ocasiones he acudido a salas de estudio y no he podido acceder porque estaba el aforo completo.
+* [ ] ¿Se trata de un problema que para solucionar requiera el despliegue
+   de una aplicación en la nube?
 
-¿Se trata de un problema que para solucionar requiera el despliegue de una aplicación en la nube?
-Sí, porque tendría que existir un servidor que almacene la información de cada usuario y sus recomendaciones personalizadas.
+Sí, ya que cada estudiante se encuentra en un lugar diferente y todos tienen que acceder a los datos del servidor.
+* [ ] ¿La solución requiere una cierta cantidad de lógica de negocio, en vez
+    solucionarse sólo almacenando y buscando?
 
-¿La solución requiere una cierta cantidad de lógica de negocio, en vez de solucionarse sólo almacenando y buscando?
-Sí, ya que según los gustos de cada usuario, la herramienta ofrece distintos resultados, procesando cada perfil de manera independiente.
+Sí, porque dependiendo de la distancia y la especialidad del usuario, mostrará unos resultados u otros.
+* [ ] ¿Se ha incluido la configuración del repositorio y se ha enlazado desde el
+`README`?
 
-¿Se ha incluído la configuración del repositorio y se ha enlazado desde el 'README'?
 Sí, he configurado y usado las claves SSH y he seleccionado el tipo de licencia.
+* [ ] ¿Tienes todos los datos necesarios para poder resolver el problema, o vas
+a requerir que el usuario los introduzca?
+
+Del usuario requerimos poca información.
